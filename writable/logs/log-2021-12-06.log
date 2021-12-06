@@ -1,0 +1,64 @@
+CRITICAL - 2021-12-06 08:47:13 --> error is not a valid Validation template.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(460): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('error')
+#1 C:\laragon\www\aplikasi-pegawai1\app\Views\register_view.php(14): CodeIgniter\Validation\Validation->listErrors('error')
+#2 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aplikasi-pegawai1\system\Common.php(1092): CodeIgniter\View\View->render('register_view', Array, true)
+#5 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(17): view('register_view', Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#7 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-06 08:50:22 --> error is not a valid Validation template.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(460): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('error')
+#1 C:\laragon\www\aplikasi-pegawai1\app\Views\register_view.php(14): CodeIgniter\Validation\Validation->listErrors('error')
+#2 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aplikasi-pegawai1\system\Common.php(1092): CodeIgniter\View\View->render('register_view', Array, true)
+#5 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(17): view('register_view', Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#7 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-06 08:58:04 --> PasswordConfirmation is not a valid rule.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('PasswordConfirm...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('cpassword', 'cpassword', '', Array, Array)
+#2 C:\laragon\www\aplikasi-pegawai1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 08:58:50 --> Password Confirmation is not a valid rule.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Confir...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('cpassword', 'cpassword', '', Array, Array)
+#2 C:\laragon\www\aplikasi-pegawai1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 08:58:58 --> Password Confirmation is not a valid rule.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Confir...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('cpassword', 'cpassword', '', Array, Array)
+#2 C:\laragon\www\aplikasi-pegawai1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 08:59:37 --> passconf is not a valid rule.
+#0 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('passconf')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('cpassword', 'cpassword', '', Array, Array)
+#2 C:\laragon\www\aplikasi-pegawai1\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
